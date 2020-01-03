@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+	
+}	
+ 
+#grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(yellow,red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow,red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow,red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow,red); /* Standard syntax */
+} 
+
+.dark-gold {
+	background-color: #5c270c;
+}
+
+.unfix {
+	position: absolute; display: inline-block; right: 6px; top:15px; bottom: auto;
+}
+.unfix-icon {
+	position: absolute; display: inline-block; right: 4px; top:-3px; bottom: auto;
+}
+
+.googlered {
+	background-color: #d73d32 !important;
+}
+
+.facebookblue {
+	background-color: #45619d !important;
+}
+
+.githubgrey {
+	background-color: #4b4b4b !important;
+}
+
+.linkedinblue {
+	background-color: #0077b5 !important;
+}
+
+nav ul a,
+nav {
+  color: #444;
+}
+
+.page-footer {
+	background-color: #ff1000 !important;
+}
+
+.footer-copyright {
+}
+
+.container {
+	margin: -25px auto !important;
+}
+
+.brand-logo {
+	font-size: 4rem !important;
+}
+
+.large-logo {
+	font-size: 4rem !important;
+}
+
+    .parallax-container {
+      height: 100px;
+    }
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
